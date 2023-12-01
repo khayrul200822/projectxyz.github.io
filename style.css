@@ -270,3 +270,34 @@ section#blog_section .about_content h2 span {
 .about_content  span {
     color: rgb(230, 230, 230);
 }
+footer{
+    padding: 60px 0px;
+    background-color: var(--primary-color);
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer li a:hover  {
+    color: black;
+}
+footer li {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+footer .single_footer_box .icon {
+    font-size: 22px;
+}
+.copy_right_section{
+    background-color: black;
+    color: white;
+}
+
+.social_link a{
+    margin-right: 15px;
+    color: white;
+}
+
+.social_link a i {
+    font-size: 25px;
+}
