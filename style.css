@@ -1,0 +1,187 @@
+/* poppins font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --primary-color: #ff5c28;
+    --secondary-color: #f3f3f3;
+}
+a {
+    text-decoration: none !important;
+}
+/*header style start here*/
+a.navbar-brand h3 {
+    color: black;
+}
+a.navbar-brand h3 span {
+    color: var(--primary-color);
+}
+.nav-item .nav-link {
+    color: black;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-item .nav-link.active {
+    color: var(--primary-color);
+}
+.nav-item .nav-link:hover {
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+header#header_section {
+    background: white !important;
+}
+header#header_section .login-signup-btn button {
+    padding: 8px 10px;
+    width: 110px;
+    outline: none;
+    transform: skew(-10deg, 0deg);
+    background: var(--primary-color);
+    color: white;
+    border: 1px solid transparent;
+    margin-right: 5px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header#header_section .login-signup-btn button:hover {
+    background: white;
+    transition: 0.3s;
+    border: 1px solid var(--primary-color);
+    color: black;
+}
+/*header section style end*/
+/*hero section style start*/
+
+section#hero_section {
+    padding: 70px 0px;
+    background: var(--secondary-color);
+}
+.hero_section_wrapper .hero_content h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 3.3rem;
+}
+.hero_section_wrapper .hero_content span {
+    color: var(--primary-color);
+}
+.hero_section_wrapper .hero_content button a,section#service_section .single_service_box .service_button button a{
+    color: white;
+    font-size: 16px;
+}
+
+.hero_section_wrapper .hero_content button i,section#service_section .single_service_box .service_button button i {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+    
+}
+.hero_section_wrapper .hero_content button:hover i,section#service_section .single_service_box .service_button button:hover i {
+    animation: icon_animation .3s ease-in  alternate forwards;
+
+}
+@keyframes icon_animation {
+    0%{ 
+        transform: translate(-25px, 0px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }   
+}
+.hero_section_wrapper .hero_content button {
+    width: 200px;
+    padding: 15px 0px;
+    background: var(--primary-color);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    transform: skew(-10deg, 0deg);
+}
+
+/*hero section style end*/
+
+/*sponsor section style start*/
+section#sponsor_section {
+    padding: 70px 0px;
+}
+section#sponsor_section .single_img {
+    width: 20%;
+    padding: 0px 35px;
+}
+
+/* service section start here */
+section#service_section .service_section_title h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+section#service_section {
+    padding: 60px 0;
+    background: var(--secondary-color);
+}
+section#service_section .single_service_box {
+    padding: 40px 15px;
+    background: white;
+    border: 1px solid var(--primary-color);
+    transition: .3s;
+}
+section#service_section .single_service_box > i {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+section#service_section .single_service_box h3 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+section#service_section .single_service_box p {
+    font-size: 14px;
+    text-align: center;
+    margin: 35px 0px;
+    color: #777;
+    line-height: 1.6rem;
+}
+section#service_section .single_service_box .service_button button{
+    padding: 15px 35px;
+    background-color: var(--primary-color);
+    border: 1px solid transparent;
+    outline: none;
+    transform: skew(-10deg, 0deg);
+}
+section#service_section .single_service_box .service_button button a{
+    color: white;
+}
+section#service_section .single_service_box:hover button{
+    border: 1px solid white;
+}
+section#service_section .single_service_box:hover {
+    background: var(--primary-color);
+    color: white;
+    transition: .3s;
+}
+section#service_section  .service_section_title {
+    margin-bottom: 75px;
+}
+section#service_section .single_service_box:hover > i{
+    color: white;
+    
+}
+
+section#service_section .single_service_box:hover p {
+    color: white;
+}
+
+section#service_section .single_service_box:hover a {
+    color: black;
+}
