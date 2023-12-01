@@ -185,3 +185,45 @@ section#service_section .single_service_box:hover p {
 section#service_section .single_service_box:hover a {
     color: black;
 }
+
+/*review section style start*/
+
+section#review_section{
+    padding: 70px 0;
+}
+section#review_section .review_section_content h2{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 2.4rem;
+}
+section#review_section .review_section_content h2 span {
+    color: var(--primary-color);
+}
+section#review_section .review_section_content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #777
+}
+section#review_section .review_section_content ul li i {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+section#review_section .review_section_content ul li  {
+    color: #777
+}
+section#review_section .review_side .single_review .review_icon{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+section#review_section .review_side .single_review .review_content p {
+    font-size: 14px;
+    font-style: italic;
+}
+section#review_section .review_side .single_review .review_star i {
+    color: #F1C40F;
+}
+section#review_section .review_side .single_review .review_star span {
+    color: #777;
+}
+/*review section style end*/
