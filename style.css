@@ -13,6 +13,10 @@
 a {
     text-decoration: none !important;
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    background: var(--primary-color) !important;
+    color: white !important;
+}
 /*header style start here*/
 a.navbar-brand h3 {
     color: black;
